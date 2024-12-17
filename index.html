@@ -11,22 +11,97 @@
 	</head>
 	<body>
 		<header>
-			<h1>SARCASM DETECTOR</h1>
+			<div class="title"><h1>SARCASM DETECTOR</h1></div>
+			<nav class="menu">
+				<div class="menu-item">
+					<span>Team</span>
+					<div class="dropdown">
+						<div class="student-list">
+							<div class="student-item">
+								<p>Priyanshi Modi (102117116) <span>Leader</span></p>
+								<img
+									src="Kinshuk.png"
+									alt="Priyanshi Modi"
+									class="student-photo" />
+							</div>
+							<div class="student-item">
+								<p>Kinshuk Kathpal (102117117)</p>
+								<img
+									src="Kinshuk.png"
+									alt="Kinshuk Kathpal"
+									class="student-photo" />
+							</div>
+							<div class="student-item">
+								<p>Roshni Ranjan (102117140)</p>
+								<img
+									src="Kinshuk.png"
+									alt="Roshni Ranjan"
+									class="student-photo" />
+							</div>
+							<div class="student-item">
+								<p>Cheshta Arora (102117163)</p>
+								<img
+									src="Kinshuk.png"
+									alt="Cheshta Arora"
+									class="student-photo" />
+							</div>
+							<div class="student-item">
+								<p>Jasmeen Kaur (102117223)</p>
+								<img
+									src="Kinshuk.png"
+									alt="Jasmeen Kaur"
+									class="student-photo" />
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="menu-item">
+					<span>Mentor</span>
+					<div class="dropdown">
+						<div class="mentor-info">
+							<img
+								src="harkiran.jpg"
+								alt="Dr. Harkiran Kaur"
+								class="mentor-photo" />
+							<h2><strong>Dr. Harkiran Kaur</strong></h2>
+							<h4>Assistant Professor</h4>
+							<p>Computer Science and Engineering Department</p>
+							<p>Thapar Institute of Engineering and Technology</p>
+							<p id="mentor-contact">
+								<span
+									><a href="mailto:harkiran.kaur@thapar.edu">
+										harkiran.kaur@thapar.edu
+									</a>
+								</span>
+								<span>9646002440</span>
+							</p>
+						</div>
+					</div>
+				</div>
+				<div class="cpg-container">
+					<div class="cpg"><p>CSED Capstone Project - CPG 144</p></div>
+					<!-- <div class="cpg-id">CPG 144</div> -->
+				</div>
+			</nav>
 		</header>
 		<main>
-			<div class="container input-container">
+			<div class="container input-container" id="background-div">
 				<h2>Input Data</h2>
 				<div class="choice-section">
-					<button id="text-choice" class="">
-						Text<span class="material-symbols-outlined" style="opacity: 0.925">
-							keyboard
-						</span>
-					</button>
-					<button id="audio-choice" class="">
-						Audio<span class="material-symbols-outlined" style="opacity: 0.925">
-							audio_file
-						</span>
-					</button>
+					<div class="button-container">
+						<button id="text-choice" class="">
+							<span class="material-symbols-outlined" style="opacity: 0.925">
+								keyboard
+							</span>
+							Text
+						</button>
+						<button id="audio-choice" class="">
+							<span class="material-symbols-outlined" style="opacity: 0.925">
+								audio_file
+							</span>
+							Audio
+						</button>
+					</div>
 				</div>
 
 				<div class="input-section">

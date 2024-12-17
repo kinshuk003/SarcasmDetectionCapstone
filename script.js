@@ -16,8 +16,8 @@ window.addEventListener("load", () => {
 textChoiceButton.addEventListener("click", () => {
 	textInputSection.classList.remove("hide");
 	audioInputSection.classList.add("hide");
-	textChoiceButton.style.border = "2px solid #b06ab3";
-	audioChoiceButton.style.border = "";
+	textChoiceButton.style.backgroundColor = "#4568dc";
+	audioChoiceButton.style.backgroundColor = "";
 	outputContainer.classList.remove("active");
 	// textInputSection.style.display = "block";
 	// audioInputSection.style.display = "none";
@@ -26,8 +26,8 @@ textChoiceButton.addEventListener("click", () => {
 audioChoiceButton.addEventListener("click", () => {
 	audioInputSection.classList.remove("hide");
 	textInputSection.classList.add("hide");
-	audioChoiceButton.style.border = "2px solid #b06ab3";
-	textChoiceButton.style.border = "";
+	audioChoiceButton.style.backgroundColor = "#4568dc";
+	textChoiceButton.style.backgroundColor = "";
 	outputContainer.classList.remove("active");
 	// audioInputSection.style.display = "block";
 	// textInputSection.style.display = "none";
